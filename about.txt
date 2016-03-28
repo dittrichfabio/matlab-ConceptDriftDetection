@@ -1,4 +1,6 @@
-This is my implementation of the ICI concept drift detection proposed in "Just-In-Time Classifiers for Recurrent Concepts" by Cesare Alippi, Giacomo Boracchi and Manuel Roveri
+This is my implementation of the ICI concept drift detection proposed in "Just-In-Time Classifiers for Recurrent Concepts" by Cesare Alippi, Giacomo Boracchi and Manuel Roveri.
 
 The main file is jit.m
-It generates data (you can change the type of data using generate_scalarN with N=[1..4]), detects when the concept changed and refines the estimate of the time of change as describe in the paper
+It generates data (you can change the type of data using generate_scalarN with N=[1..4]), detects when the concept changed and refines the estimate of the time of change as describe in the paper.
+
+You need PrToolBox for these files to work.
